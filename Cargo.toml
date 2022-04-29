@@ -1,0 +1,15 @@
+[package]
+name = "storage-list"
+version = "1.0.0"
+edition = "2021"
+authors = [ "Nathan ROYER <nathan.royer.pro@gmail.com>" ]
+description = "Crate to list storage and partitions on a linux system"
+license = "MIT"
+keywords = ["storage", "linux", "sysfs", "partition"]
+repository = "https://github.com/NathanRoyer/storage-list"
+readme = "README.md"
+
+[dependencies]
+
+[[example]]
+name = "main"
